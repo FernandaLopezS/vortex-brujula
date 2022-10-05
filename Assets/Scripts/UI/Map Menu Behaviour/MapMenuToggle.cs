@@ -16,7 +16,7 @@ public class MapMenuToggle : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
-            }
+            }          
             else
             {
                 Pause();
@@ -39,5 +39,18 @@ public class MapMenuToggle : MonoBehaviour
         MapMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-    }   
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            MapToMenu();
+        }
+    } 
+
+    void MapToMenu()
+    {
+        Debug.Log("Estoy en la función MapToMenu");
+        MapMenuUI.SetActive(false);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+    }
 }

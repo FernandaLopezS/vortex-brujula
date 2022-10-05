@@ -9,10 +9,12 @@ public class TabButton : MonoBehaviour ,IPointerEnterHandler, IPointerClickHandl
 {
     public TabGroup tabGroup;
     public Image background;
+    public GameObject map;
 
     public void OnPointerClick(PointerEventData eventData)
     {
         tabGroup.OnTabSelected(this);
+        map.SetActive(true);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
