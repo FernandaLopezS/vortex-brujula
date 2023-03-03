@@ -5,9 +5,9 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Image))]
-public class TabButton : MonoBehaviour ,IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
+public class LegacyTabButton : MonoBehaviour /*,IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler*/
 {
-    public TabGroup tabGroup;
+    /*public LegacyTabGroup tabGroup;
     public Image background;
     public GameObject map;
 
@@ -38,5 +38,5 @@ public class TabButton : MonoBehaviour ,IPointerEnterHandler, IPointerClickHandl
     void Update()
     {
         
-    }
+    }*/
 }
