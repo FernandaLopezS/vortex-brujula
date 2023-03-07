@@ -7,11 +7,7 @@ public class parry : MonoBehaviour
 
     public int parryCooldown = 100;
     
-<<<<<<< Updated upstream
-    private Animator anim;
-=======
     //private Animator anim;
->>>>>>> Stashed changes
     private life_manager life;
     private int cooldown;
 
@@ -22,26 +18,16 @@ public class parry : MonoBehaviour
     void Start()
     {
         life = gameObject.GetComponent<life_manager>();
-<<<<<<< Updated upstream
-        anim = gameObject.GetComponent<Animator>();
-=======
         //anim = gameObject.GetComponent<Animator>();
->>>>>>> Stashed changes
         cooldown = 0;
     }
 
     // Update is called once per frame
 
     void Update(){
-<<<<<<< Updated upstream
-        if(Input.GetMouseButtonDown(0) && cooldown == 0){
-            cooldown = parryCooldown;
-            anim.SetInteger("State", 1);
-=======
         if(Input.GetMouseButtonDown(1) && cooldown == 0){
             cooldown = parryCooldown;
             //anim.SetInteger("State", 1);
->>>>>>> Stashed changes
             Debug.Log("Parry command received");
             life.LockOn();
         }
@@ -54,11 +40,7 @@ public class parry : MonoBehaviour
             cooldown--;
             if(cooldown == parryCooldown - 30){
                 life.LockOff();
-<<<<<<< Updated upstream
-                anim.SetInteger("State", 0);
-=======
                 //anim.SetInteger("State", 0);
->>>>>>> Stashed changes
             }
         }else{
             if(t){
