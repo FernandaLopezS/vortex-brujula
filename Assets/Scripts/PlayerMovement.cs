@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private bool isGrounded;
 
+    //[SerializeField] private bool manaHack;
+    //[SerializeField] private bool hasMana = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +37,17 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
             isGrounded = false;
         }
+
+        /*if (Input.GetKeyDown(KeyCode.T) && manaHack)
+        {
+            hasMana = true;
+            Debug.Log("Unlimited...PooooOOOOoooweeeer! >:D");
+        }
+        else
+        {
+            hasMana = false;
+            Debug.Log("No mana ;-;");
+        }*/
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
