@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TabGroup : MonoBehaviour
+public class LegacyTabGroup : MonoBehaviour
 {
-    public List<TabButton> tabButtons;
+    /*public List<TabButton> tabButtons;
     public Sprite tabIdle;
     public Sprite tabHover;
     public Sprite tabActive;
@@ -62,5 +62,5 @@ public class TabGroup : MonoBehaviour
             if(selectedTab != null && button ==selectedTab) { continue; }
             button.background.sprite = tabIdle;
         }
-    }
+    }*/
 }
