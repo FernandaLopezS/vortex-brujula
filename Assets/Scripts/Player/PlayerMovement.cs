@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LegacyPlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
 
