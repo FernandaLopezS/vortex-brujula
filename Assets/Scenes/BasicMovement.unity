@@ -1826,6 +1826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &894875050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1961,6 +1964,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &925439797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2096,6 +2102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &939227567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2833,6 +2842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4642d48ff85379545935f8d398001974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
   speed: 10
   jumpForce: 5
   isGrounded: 0
@@ -2985,6 +2995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &1488962056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3120,6 +3133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &1537266593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3672,6 +3688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &1748315532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3807,6 +3826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &1818290136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4262,6 +4284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a5f83dd8cf887d40b32152dee6ca856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}
+  background: {fileID: 0}
+  map: {fileID: 0}
 --- !u!114 &2052283179
 MonoBehaviour:
   m_ObjectHideFlags: 0

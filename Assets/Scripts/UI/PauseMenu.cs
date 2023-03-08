@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LegacyPauseMenu : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
     public bool gameIsPaused = false;
     public GameObject PauseMenuUI;
